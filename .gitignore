@@ -1,0 +1,4 @@
+__pycache__/
+spc_mail_config.json
+수집함/
+*.pyc

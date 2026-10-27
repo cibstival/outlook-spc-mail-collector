@@ -1,0 +1,23 @@
+{
+  "_설명": "복사해서 spc_mail_config.json으로 저장(저장소 제외). 도메인·SPC명은 고객 정보라 로컬에만 둔다.",
+  "dest_root": "C:\\Users\\USER\\Desktop\\용역\\spc 자동화\\수집함",
+  "spc_root": "C:\\Users\\USER\\Desktop\\용역\\spc 자동화\\SPC",
+  "work_root": "C:\\Users\\USER\\Desktop\\용역\\spc 자동화\\자동결산",
+  "_설명_work_root": "자동 결산 결과(SPC별·결산월별 B·A·D·DSD·검토요약) 폴더. 원본 SPC 폴더에는 쓰지 않음",
+  "outlook_store": "",
+  "outlook_folder": "auto",
+  "domains": {
+    "example-securities.co.kr": "○○증권",
+    "example-bank.com": "○○은행"
+  },
+  "spc": {
+    "예시제일차유동화전문(유)": "○○증권"
+  },
+  "aliases": {
+    "예시1차": "예시제일차유동화전문(유)"
+  },
+  "exclude_mail_folders": [
+    "예시: 개인"
+  ],
+  "_설명_outlook_folder": "auto = 메일 폴더 전부(보낸·지운·정크 제외)에서 SPC 자료 메일만. 특정 폴더만 보려면 이름이나 경로 목록"
+}
